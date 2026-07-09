@@ -508,7 +508,34 @@
     display: none;
 }
 
+.main-header .logo-box .logo,
+#logo {
+	width: 197px;
+	height: 147px;
+}
 
+.main-header .logo-box .logo a,
+#logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.main-header .logo-box .logo img,
+#logo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.mobile-menu .nav-logo img,
+.hidden-sidebar .logo img {
+	display: block;
+	width: 197px;
+	height: auto;
+	max-width: 100%;
+}
 
 
 
